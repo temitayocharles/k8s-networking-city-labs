@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Python
+*.pyc
+__pycache__/
+.venv/
+venv/
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# System
+Thumbs.db
+
+# Node
+node_modules/
+
+# Bootstrap artifacts
+extracted_images/
+
+# Other
+*.swp
+*.swo
