@@ -1,0 +1,8 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#fff"/>
+  <rect x="300" y="150" width="200" height="200" fill="#e5e7eb" stroke="#1f2937" stroke-width="3"/>
+  <text x="400" y="140" font-size="20" text-anchor="middle" fill="#1f2937" font-family="sans-serif">netns</text>
+  <circle cx="400" cy="250" r="40" fill="#fbbf24" stroke="#1f2937" stroke-width="3"/>
+  <text x="400" y="255" font-size="18" text-anchor="middle" fill="#1f2937" font-family="sans-serif">pause</text>
+  <text x="400" y="320" font-size="16" text-anchor="middle" fill="#1f2937" font-family="sans-serif">namespace anchor</text>
+</svg>

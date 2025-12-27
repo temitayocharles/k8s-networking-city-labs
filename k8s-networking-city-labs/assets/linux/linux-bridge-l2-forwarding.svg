@@ -1,0 +1,13 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#fff"/>
+  <rect x="350" y="200" width="100" height="100" fill="#e5e7eb" stroke="#1f2937" stroke-width="3"/>
+  <text x="400" y="190" font-size="20" text-anchor="middle" fill="#1f2937" font-family="sans-serif">Bridge</text>
+  <line x1="200" y1="250" x2="350" y2="250" stroke="#1f2937" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="450" y1="250" x2="600" y2="250" stroke="#1f2937" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="400" y="320" font-size="16" text-anchor="middle" fill="#1f2937" font-family="sans-serif">L2 forwarding</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 L2,5 Z" fill="#1f2937" />
+    </marker>
+  </defs>
+</svg>

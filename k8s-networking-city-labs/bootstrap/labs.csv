@@ -1,0 +1,24 @@
+track,id,slug,title
+linux,01,apartment-pod,Apartment (Pod)
+linux,02,lease-holder-pause,Lease Holder (Pause Container)
+linux,03,door-veth-pair,Door (veth Pair)
+linux,04,hallway-linux-bridge,Hallway (Linux Bridge)
+linux,05,building-node,Building (Node)
+linux,06,roads-overlay,Roads (Routing & Overlay)
+linux,07,front-desk-services,Front Desk (Services)
+linux,08,city-planner-cni,City Planner (CNI)
+linux,09,security-network-policies,Security (Network Policies)
+k8s,01,pod,Pod (Apartment)
+k8s,02,pause-container,Pause Container
+k8s,03,veth-cni,veth via CNI
+k8s,04,bridge-node,Node Bridge
+k8s,05,multi-node,Multi-Node Networking
+k8s,06,overlay,Overlay Networking
+k8s,07,services,Services
+k8s,08,cni-plugin,CNI Plugin
+k8s,09,network-policies,Network Policies
+failure,01,ipam-exhaustion,IPAM Exhaustion
+failure,02,broken-veth,Broken veth Pair
+failure,03,overlay-partition,Overlay Partition
+failure,04,kube-proxy-desync,kube-proxy Desync
+failure,05,policy-blackhole,Policy Blackhole

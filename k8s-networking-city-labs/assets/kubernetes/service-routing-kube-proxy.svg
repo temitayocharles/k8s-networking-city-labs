@@ -1,0 +1,17 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#fff"/>
+  <rect x="100" y="200" width="200" height="100" fill="#e0f2fe" stroke="#1f2937" stroke-width="3"/>
+  <text x="200" y="190" font-size="20" text-anchor="middle" fill="#1f2937" font-family="sans-serif">Service</text>
+  <rect x="500" y="150" width="150" height="80" fill="#e5e7eb" stroke="#1f2937" stroke-width="2"/>
+  <text x="575" y="140" font-size="16" text-anchor="middle" fill="#1f2937" font-family="sans-serif">Pod A</text>
+  <rect x="500" y="270" width="150" height="80" fill="#e5e7eb" stroke="#1f2937" stroke-width="2"/>
+  <text x="575" y="260" font-size="16" text-anchor="middle" fill="#1f2937" font-family="sans-serif">Pod B</text>
+  <polyline points="300,250 500,190" fill="none" stroke="#1f2937" stroke-width="2" marker-end="url(#arrow)"/>
+  <polyline points="300,250 500,310" fill="none" stroke="#1f2937" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="400" y="170" font-size="16" text-anchor="middle" fill="#1f2937" font-family="sans-serif">kube-proxy</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 L2,5 Z" fill="#1f2937" />
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,10 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#fff"/>
+  <rect x="150" y="200" width="150" height="100" fill="#e5e7eb" stroke="#1f2937" stroke-width="3"/>
+  <text x="225" y="190" font-size="20" text-anchor="middle" fill="#1f2937" font-family="sans-serif">netns A</text>
+  <rect x="500" y="200" width="150" height="100" fill="#e5e7eb" stroke="#1f2937" stroke-width="3"/>
+  <text x="575" y="190" font-size="20" text-anchor="middle" fill="#1f2937" font-family="sans-serif">netns B</text>
+  <line x1="300" y1="250" x2="500" y2="250" stroke="#ef4444" stroke-width="4" stroke-dasharray="12,8"/>
+  <text x="400" y="235" font-size="18" text-anchor="middle" fill="#ef4444" font-family="sans-serif">broken veth</text>
+  <text x="400" y="350" font-size="16" text-anchor="middle" fill="#1f2937" font-family="sans-serif">blackhole: no traffic</text>
+</svg>

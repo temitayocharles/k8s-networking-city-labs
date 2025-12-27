@@ -1,0 +1,14 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#fff"/>
+  <rect x="150" y="150" width="200" height="200" fill="#e5e7eb" stroke="#1f2937" stroke-width="3"/>
+  <text x="250" y="140" font-size="20" text-anchor="middle" fill="#1f2937" font-family="sans-serif">Roommates</text>
+  <rect x="450" y="150" width="200" height="200" fill="#e0f2fe" stroke="#1f2937" stroke-width="3"/>
+  <text x="550" y="140" font-size="20" text-anchor="middle" fill="#1f2937" font-family="sans-serif">Containers</text>
+  <line x1="350" y1="250" x2="450" y2="250" stroke="#1f2937" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="400" y="235" font-size="16" text-anchor="middle" fill="#1f2937" font-family="sans-serif">analogy</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 L2,5 Z" fill="#1f2937" />
+    </marker>
+  </defs>
+</svg>
